@@ -18,7 +18,7 @@ chown -R nfsnobody:nfsnobody /srv/share
 chmod 0777 /srv/share/upload
 
 cat << EOF > /etc/exports
-/srv/share 10.111.177.160/32(rw,sync,root_squash)
+/srv/share ${1}/32(rw,sync,root_squash)
 EOF
 
 exportfs -r

@@ -131,8 +131,6 @@ touch /mnt/upload/testfile
 
 ```bash
 $ ls -la /srv/share/upload/
-
-$ ls -la /srv/share/upload/
 total 0
 drwxrwxrwx. 2 nfsnobody nfsnobody 18 Dec  9 13:38 .
 drwxr-xr-x. 3 nfsnobody nfsnobody 32 Dec  9 13:37 ..
